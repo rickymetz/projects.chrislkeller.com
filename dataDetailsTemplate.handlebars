@@ -1,0 +1,12 @@
+<div>
+
+    {{debug}}
+    <h2>/r/webdev clone</h2>
+
+    {{#each data.children}}
+        <h3><a href="{{data.url}}">{{data.title}}</a></h3>
+        <a href="{{data.permalink}}" target="_blank">{{data.num_comments}} comments</a>
+        <br />
+    {{/each}}
+
+</div>
